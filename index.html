@@ -22,7 +22,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+  
+
     <!-- Navigation -->
+    
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
@@ -56,9 +59,13 @@
             </li>
           </ul>
         </address>
+        <button class="btn-menu"><svg width="24" height="24"><use href="./images/icons.svg#solid_menu"></use></svg></button>
       </div>
     </header>
+  
+
     <!-- Main content-->
+    <!--
     <main>
       <section class="solution">
         <div class="container">
@@ -66,8 +73,10 @@
           <button type="button" class="section-button">Order Service</button>
         </div>
       </section>
+    -->
 
       <!-- Main content list -->
+      
       <section class="description">
         <div class="container">
           <h2 class="visually-hidden">description</h2>
@@ -126,8 +135,10 @@
           </ul>
         </div>
       </section>
+  
 
       <!-- Main content team -->
+      
       <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
@@ -135,6 +146,7 @@
             <li class="team-item">
               <img
                 class="post-image"
+                srcset="./images/img1.jpg 1x, ./images/Mark2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="Product Designer"
                 width="264"
@@ -150,7 +162,7 @@
 <use href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
-                  </li>
+                  </li><!--
 <li class="item-team">
 <a class="item-link" href="">
 <svg class="socials-icons" width="16" height="16">
@@ -308,7 +320,7 @@
         </ul>
         </div>
       </section>
-
+    -->
       <!-- Our Portfolio -->
 
       <section class="portfolio">
@@ -317,7 +329,38 @@
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
               <div class="overflow-portfolio">
-                 <img src="./images/img5.jpg" alt="App" width="360" height="300" />
+                 
+                
+                <picture>
+                  <source
+                    srcset="
+                      ./images/img1.jpg 1x,
+                      ./images/bankapp2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="./images/bankapp-tablet1x.jpg 1x, 
+                    ./images/bankapp-tablet2x.jpg 2x"
+  
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/bankapp-mob1x.jpg  1x,
+                      ./images/bankapp-mob2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/img1.jpg"
+                    alt="Cashless Paymen"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+
+
                 <p class="text"> 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
               <div class="box-portfolio">
@@ -405,9 +448,11 @@
           </ul>
         </div>
       </section>
-      <!--  -->
     </main>
+     
+
     <!-- Footer -->
+    <!--
     <footer class="footer">
       <div class="container container-container-footer">
         <div class="footer-container">
@@ -471,7 +516,9 @@
 </div>
       </div>
     </footer>
+  -->
      <!-- Modal -->
+     <!-- 
 <div class="backdrop is-open">
   <div class="modal">
     <button type="button" class="modal-close-btn">
@@ -556,5 +603,6 @@
       </form>
   </div>
 </div>
+ -->
   </body>
 </html>

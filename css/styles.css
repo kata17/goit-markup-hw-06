@@ -40,6 +40,7 @@ margin: 0;
 
 
 /* header */
+/* navigation */
 .container{
 max-width: 320px;
 padding: 0 16px;
@@ -89,7 +90,7 @@ align-items: center;
     background-color: #ffffff;
 }
 
-
+/* mob version 1 section */
 
 /* mob version 2 section */
 .description{padding: 96px 0;}
@@ -201,7 +202,7 @@ margin-bottom: 12px;
     align-items: center;
    
 }
-
+/* section 1 */
 /*section 2*/
 
 .description-list{

@@ -90,9 +90,8 @@ align-items: center;
     background-color: #ffffff;
 }
 
-/* mob version 1 section */
 
-/* mob version 2 section */
+/* mob version 1 section */
 .description{padding: 96px 0;}
 
 .thumb{display: none;}
@@ -117,7 +116,12 @@ align-items: center;
         flex-direction: column;
         gap: 72px;
     }
+/* mob version 2 section */
 
+/* mob version section 3 */
+.portfolio{
+    padding: 96px 0;
+}
 @media screen and (min-width:768px){
     .adress{
         display: block;
@@ -202,9 +206,8 @@ margin-bottom: 12px;
     align-items: center;
    
 }
-/* section 1 */
-/*section 2*/
 
+/* section 1 */
 .description-list{
    
     flex-direction: row;
@@ -214,6 +217,11 @@ margin-bottom: 12px;
 .description-item{
     width: calc((100% - 24px) / 2);
 }
+/*section 2*/
+
+/* section 3 */
+
+
 }
 
 @media screen and (min-width:1158px) {

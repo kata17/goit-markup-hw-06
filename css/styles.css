@@ -343,6 +343,12 @@ flex-direction: column;
     position: relative;
     overflow: hidden;
 }
+/* footer mob */
+.footer {
+    background:  #2E2F42;
+    padding: 96px 0;
+  
+}
 
 
 @media screen and (min-width:768px){

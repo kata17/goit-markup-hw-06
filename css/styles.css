@@ -349,7 +349,11 @@ flex-direction: column;
     padding: 96px 0;
   
 }
-
+.container-container-footer{
+    max-width: 320px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
 
 @media screen and (min-width:768px){
     .adress{
@@ -454,6 +458,7 @@ margin-bottom: 12px;
             ),
             url(../images/tablet2x.jpg);
     }
+}
     .section-title {
         color: #FFF;
             text-align: center;
@@ -530,11 +535,17 @@ margin-bottom: 12px;
 .title-name{
     text-align: left;
 }
+/* footer tablet */
+.container-container-footer{
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 72px;
+padding-left: 108px;
 }
 
 
 
-}
 @media screen and (min-width:1158px) {
  .container{
     max-width: 1158px;
@@ -888,6 +899,9 @@ height: 40px;
 .container-container-footer{
     display: flex;
     align-items: baseline;
+    padding-left: 15px;
+    column-gap: 0;
+    flex-wrap: wrap;
 }
 .footer-container{
    

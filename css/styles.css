@@ -667,13 +667,10 @@ margin: 0 auto;
         color: #2E2F42;
     text-align: center;
     font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     text-align: center;
-     max-width: 360px;
     margin-bottom: 16px;
     }
 
@@ -1127,6 +1124,20 @@ padding-left: 24px;
 padding-top: 72px;
 margin-bottom: 16px;
 }
+.modal-text{
+    color: #2E2F42;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+text-align: center;
+ max-width: 360px;
+margin-bottom: 16px;
+}
+
 .check-text{
     display: flex;
     font-family: Roboto;

@@ -1432,7 +1432,9 @@ height: 40px;
     flex-wrap: wrap;
 }
 
-
+.footer-socials{
+margin-right: auto;
+}
 .footer-socials-title {
     color: #FFF;
     font-family: Roboto;

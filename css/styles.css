@@ -86,7 +86,7 @@ justify-content:space-between;
 align-items: center;
 }
 .btn-menu{
-    border:none;
+    border: none;
     background-color: #ffffff;
 }
 
@@ -108,7 +108,7 @@ align-items: center;
     visibility: hidden;
 }
 .is-open{
-    opacity: 1;
+    opacity: 0;
     visibility: visible;
     pointer-events: auto;
 }
@@ -160,10 +160,6 @@ justify-content: left;
 gap: 40px;
 }
 
-.socials-icons{
-    width: 40px;
-    height: 40px;
-}
 
 .socials-link{
     display: flex;
@@ -357,6 +353,7 @@ button{
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 .team-icons-list{
     display: flex;
@@ -620,7 +617,7 @@ margin: 0 auto;
     pointer-events: none;
     }
     .is-open{
-        opacity: 1;
+        opacity: 0;
         visibility: visible;
         pointer-events: auto;
     }
